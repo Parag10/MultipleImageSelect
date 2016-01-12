@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BD8646C1C06C73C00C60AD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8646B1C06C73C00C60AD5 /* main.m */; };
+		2BD8646F1C06C73C00C60AD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8646E1C06C73C00C60AD5 /* AppDelegate.m */; };
+		2BD864771C06C73C00C60AD5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BD864761C06C73C00C60AD5 /* Images.xcassets */; };
+		2BD8647A1C06C73C00C60AD5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD864781C06C73C00C60AD5 /* LaunchScreen.xib */; };
+		2BD864861C06C73C00C60AD5 /* MultipleImageSelectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864851C06C73C00C60AD5 /* MultipleImageSelectTests.m */; };
+		2BD864921C06C87B00C60AD5 /* SelectMultipleImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864901C06C87B00C60AD5 /* SelectMultipleImage.m */; };
+		2BD864931C06C87B00C60AD5 /* SelectMultipleImage.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BD864911C06C87B00C60AD5 /* SelectMultipleImage.xib */; };
+		2BD864A51C06EDD700C60AD5 /* AlbumPickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864951C06EDD700C60AD5 /* AlbumPickerController.m */; };
+		2BD864A61C06EDD700C60AD5 /* Asset.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864971C06EDD700C60AD5 /* Asset.m */; };
+		2BD864A71C06EDD700C60AD5 /* AssetCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864991C06EDD700C60AD5 /* AssetCell.m */; };
+		2BD864A81C06EDD700C60AD5 /* AssetTablePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8649D1C06EDD700C60AD5 /* AssetTablePicker.m */; };
+		2BD864A91C06EDD700C60AD5 /* ImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD8649F1C06EDD700C60AD5 /* ImagePickerController.m */; };
+		2BD864AA1C06EDD700C60AD5 /* Console.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864A21C06EDD700C60AD5 /* Console.m */; };
+		2BD864AB1C06EDD700C60AD5 /* OverlayImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BD864A41C06EDD700C60AD5 /* OverlayImageView.m */; };
+		2BD864AE1C06EFB600C60AD5 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD864AD1C06EFB600C60AD5 /* MobileCoreServices.framework */; };
+		2BD864B01C07012700C60AD5 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BD864AF1C07012700C60AD5 /* AssetsLibrary.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2BD864801C06C73C00C60AD5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2BD8645E1C06C73C00C60AD5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2BD864651C06C73C00C60AD5;
+			remoteInfo = MultipleImageSelect;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2BD864661C06C73C00C60AD5 /* MultipleImageSelect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultipleImageSelect.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD8646A1C06C73C00C60AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD8646B1C06C73C00C60AD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2BD8646D1C06C73C00C60AD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BD8646E1C06C73C00C60AD5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BD864761C06C73C00C60AD5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		2BD864791C06C73C00C60AD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		2BD8647F1C06C73C00C60AD5 /* MultipleImageSelectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultipleImageSelectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BD864841C06C73C00C60AD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2BD864851C06C73C00C60AD5 /* MultipleImageSelectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultipleImageSelectTests.m; sourceTree = "<group>"; };
+		2BD8648F1C06C87B00C60AD5 /* SelectMultipleImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectMultipleImage.h; sourceTree = "<group>"; };
+		2BD864901C06C87B00C60AD5 /* SelectMultipleImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectMultipleImage.m; sourceTree = "<group>"; };
+		2BD864911C06C87B00C60AD5 /* SelectMultipleImage.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SelectMultipleImage.xib; sourceTree = "<group>"; };
+		2BD864941C06EDD700C60AD5 /* AlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlbumPickerController.h; sourceTree = "<group>"; };
+		2BD864951C06EDD700C60AD5 /* AlbumPickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlbumPickerController.m; sourceTree = "<group>"; };
+		2BD864961C06EDD700C60AD5 /* Asset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Asset.h; sourceTree = "<group>"; };
+		2BD864971C06EDD700C60AD5 /* Asset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Asset.m; sourceTree = "<group>"; };
+		2BD864981C06EDD700C60AD5 /* AssetCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetCell.h; sourceTree = "<group>"; };
+		2BD864991C06EDD700C60AD5 /* AssetCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetCell.m; sourceTree = "<group>"; };
+		2BD8649A1C06EDD700C60AD5 /* AssetSelectionDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetSelectionDelegate.h; sourceTree = "<group>"; };
+		2BD8649B1C06EDD700C60AD5 /* AssetPickerFilterDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetPickerFilterDelegate.h; sourceTree = "<group>"; };
+		2BD8649C1C06EDD700C60AD5 /* AssetTablePicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetTablePicker.h; sourceTree = "<group>"; };
+		2BD8649D1C06EDD700C60AD5 /* AssetTablePicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetTablePicker.m; sourceTree = "<group>"; };
+		2BD8649E1C06EDD700C60AD5 /* ImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerController.h; sourceTree = "<group>"; };
+		2BD8649F1C06EDD700C60AD5 /* ImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImagePickerController.m; sourceTree = "<group>"; };
+		2BD864A01C06EDD700C60AD5 /* ImagePickerHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImagePickerHeader.h; sourceTree = "<group>"; };
+		2BD864A11C06EDD700C60AD5 /* Console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Console.h; sourceTree = "<group>"; };
+		2BD864A21C06EDD700C60AD5 /* Console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Console.m; sourceTree = "<group>"; };
+		2BD864A31C06EDD700C60AD5 /* OverlayImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OverlayImageView.h; sourceTree = "<group>"; };
+		2BD864A41C06EDD700C60AD5 /* OverlayImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OverlayImageView.m; sourceTree = "<group>"; };
+		2BD864AD1C06EFB600C60AD5 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		2BD864AF1C07012700C60AD5 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BD864631C06C73C00C60AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD864B01C07012700C60AD5 /* AssetsLibrary.framework in Frameworks */,
+				2BD864AE1C06EFB600C60AD5 /* MobileCoreServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD8647C1C06C73C00C60AD5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5AE9D61C450AC50094DAC8 /* FrameWroks */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864AF1C07012700C60AD5 /* AssetsLibrary.framework */,
+				2BD864AD1C06EFB600C60AD5 /* MobileCoreServices.framework */,
+			);
+			name = FrameWroks;
+			sourceTree = "<group>";
+		};
+		2BD8645D1C06C73C00C60AD5 = {
+			isa = PBXGroup;
+			children = (
+				2B5AE9D61C450AC50094DAC8 /* FrameWroks */,
+				2BD864681C06C73C00C60AD5 /* MultipleImageSelect */,
+				2BD864821C06C73C00C60AD5 /* MultipleImageSelectTests */,
+				2BD864671C06C73C00C60AD5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BD864671C06C73C00C60AD5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864661C06C73C00C60AD5 /* MultipleImageSelect.app */,
+				2BD8647F1C06C73C00C60AD5 /* MultipleImageSelectTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BD864681C06C73C00C60AD5 /* MultipleImageSelect */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864AC1C06EDF400C60AD5 /* ImagePicker */,
+				2BD8646D1C06C73C00C60AD5 /* AppDelegate.h */,
+				2BD8646E1C06C73C00C60AD5 /* AppDelegate.m */,
+				2BD8648F1C06C87B00C60AD5 /* SelectMultipleImage.h */,
+				2BD864901C06C87B00C60AD5 /* SelectMultipleImage.m */,
+				2BD864911C06C87B00C60AD5 /* SelectMultipleImage.xib */,
+				2BD864761C06C73C00C60AD5 /* Images.xcassets */,
+				2BD864781C06C73C00C60AD5 /* LaunchScreen.xib */,
+				2BD864691C06C73C00C60AD5 /* Supporting Files */,
+			);
+			path = MultipleImageSelect;
+			sourceTree = "<group>";
+		};
+		2BD864691C06C73C00C60AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD8646A1C06C73C00C60AD5 /* Info.plist */,
+				2BD8646B1C06C73C00C60AD5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD864821C06C73C00C60AD5 /* MultipleImageSelectTests */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864851C06C73C00C60AD5 /* MultipleImageSelectTests.m */,
+				2BD864831C06C73C00C60AD5 /* Supporting Files */,
+			);
+			path = MultipleImageSelectTests;
+			sourceTree = "<group>";
+		};
+		2BD864831C06C73C00C60AD5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864841C06C73C00C60AD5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2BD864AC1C06EDF400C60AD5 /* ImagePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2BD864941C06EDD700C60AD5 /* AlbumPickerController.h */,
+				2BD864951C06EDD700C60AD5 /* AlbumPickerController.m */,
+				2BD864961C06EDD700C60AD5 /* Asset.h */,
+				2BD864971C06EDD700C60AD5 /* Asset.m */,
+				2BD864981C06EDD700C60AD5 /* AssetCell.h */,
+				2BD864991C06EDD700C60AD5 /* AssetCell.m */,
+				2BD8649A1C06EDD700C60AD5 /* AssetSelectionDelegate.h */,
+				2BD8649B1C06EDD700C60AD5 /* AssetPickerFilterDelegate.h */,
+				2BD8649C1C06EDD700C60AD5 /* AssetTablePicker.h */,
+				2BD8649D1C06EDD700C60AD5 /* AssetTablePicker.m */,
+				2BD8649E1C06EDD700C60AD5 /* ImagePickerController.h */,
+				2BD8649F1C06EDD700C60AD5 /* ImagePickerController.m */,
+				2BD864A01C06EDD700C60AD5 /* ImagePickerHeader.h */,
+				2BD864A11C06EDD700C60AD5 /* Console.h */,
+				2BD864A21C06EDD700C60AD5 /* Console.m */,
+				2BD864A31C06EDD700C60AD5 /* OverlayImageView.h */,
+				2BD864A41C06EDD700C60AD5 /* OverlayImageView.m */,
+			);
+			name = ImagePicker;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BD864651C06C73C00C60AD5 /* MultipleImageSelect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD864891C06C73C00C60AD5 /* Build configuration list for PBXNativeTarget "MultipleImageSelect" */;
+			buildPhases = (
+				2BD864621C06C73C00C60AD5 /* Sources */,
+				2BD864631C06C73C00C60AD5 /* Frameworks */,
+				2BD864641C06C73C00C60AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultipleImageSelect;
+			productName = MultipleImageSelect;
+			productReference = 2BD864661C06C73C00C60AD5 /* MultipleImageSelect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2BD8647E1C06C73C00C60AD5 /* MultipleImageSelectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BD8648C1C06C73C00C60AD5 /* Build configuration list for PBXNativeTarget "MultipleImageSelectTests" */;
+			buildPhases = (
+				2BD8647B1C06C73C00C60AD5 /* Sources */,
+				2BD8647C1C06C73C00C60AD5 /* Frameworks */,
+				2BD8647D1C06C73C00C60AD5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2BD864811C06C73C00C60AD5 /* PBXTargetDependency */,
+			);
+			name = MultipleImageSelectTests;
+			productName = MultipleImageSelectTests;
+			productReference = 2BD8647F1C06C73C00C60AD5 /* MultipleImageSelectTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BD8645E1C06C73C00C60AD5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Parag Bharambe";
+				TargetAttributes = {
+					2BD864651C06C73C00C60AD5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					2BD8647E1C06C73C00C60AD5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 2BD864651C06C73C00C60AD5;
+					};
+				};
+			};
+			buildConfigurationList = 2BD864611C06C73C00C60AD5 /* Build configuration list for PBXProject "MultipleImageSelect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2BD8645D1C06C73C00C60AD5;
+			productRefGroup = 2BD864671C06C73C00C60AD5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BD864651C06C73C00C60AD5 /* MultipleImageSelect */,
+				2BD8647E1C06C73C00C60AD5 /* MultipleImageSelectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BD864641C06C73C00C60AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD8647A1C06C73C00C60AD5 /* LaunchScreen.xib in Resources */,
+				2BD864931C06C87B00C60AD5 /* SelectMultipleImage.xib in Resources */,
+				2BD864771C06C73C00C60AD5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD8647D1C06C73C00C60AD5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BD864621C06C73C00C60AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD864A51C06EDD700C60AD5 /* AlbumPickerController.m in Sources */,
+				2BD864921C06C87B00C60AD5 /* SelectMultipleImage.m in Sources */,
+				2BD864AA1C06EDD700C60AD5 /* Console.m in Sources */,
+				2BD8646F1C06C73C00C60AD5 /* AppDelegate.m in Sources */,
+				2BD864A61C06EDD700C60AD5 /* Asset.m in Sources */,
+				2BD864A81C06EDD700C60AD5 /* AssetTablePicker.m in Sources */,
+				2BD8646C1C06C73C00C60AD5 /* main.m in Sources */,
+				2BD864A91C06EDD700C60AD5 /* ImagePickerController.m in Sources */,
+				2BD864AB1C06EDD700C60AD5 /* OverlayImageView.m in Sources */,
+				2BD864A71C06EDD700C60AD5 /* AssetCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BD8647B1C06C73C00C60AD5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BD864861C06C73C00C60AD5 /* MultipleImageSelectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2BD864811C06C73C00C60AD5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2BD864651C06C73C00C60AD5 /* MultipleImageSelect */;
+			targetProxy = 2BD864801C06C73C00C60AD5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2BD864781C06C73C00C60AD5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2BD864791C06C73C00C60AD5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2BD864871C06C73C00C60AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2BD864881C06C73C00C60AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2BD8648A1C06C73C00C60AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleImageSelect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2BD8648B1C06C73C00C60AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultipleImageSelect/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2BD8648D1C06C73C00C60AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleImageSelectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleImageSelect.app/MultipleImageSelect";
+			};
+			name = Debug;
+		};
+		2BD8648E1C06C73C00C60AD5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultipleImageSelectTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultipleImageSelect.app/MultipleImageSelect";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BD864611C06C73C00C60AD5 /* Build configuration list for PBXProject "MultipleImageSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD864871C06C73C00C60AD5 /* Debug */,
+				2BD864881C06C73C00C60AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD864891C06C73C00C60AD5 /* Build configuration list for PBXNativeTarget "MultipleImageSelect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD8648A1C06C73C00C60AD5 /* Debug */,
+				2BD8648B1C06C73C00C60AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BD8648C1C06C73C00C60AD5 /* Build configuration list for PBXNativeTarget "MultipleImageSelectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BD8648D1C06C73C00C60AD5 /* Debug */,
+				2BD8648E1C06C73C00C60AD5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BD8645E1C06C73C00C60AD5 /* Project object */;
+}
